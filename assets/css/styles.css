@@ -1,0 +1,142 @@
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #fff;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background-color: transparent;
+}
+
+#side-menu {
+  background: #eaeaea;
+}
+
+#about {
+  width: 100%;
+  height: 50vh;
+}
+
+.col {
+}
+
+#about-heading {
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  margin-top: 52px;
+}
+
+#about-img {
+  background: url("../../assets/img/pexels-photo-716411.jpeg") center / cover no-repeat;
+}
+
+#about-img {
+  display: block;
+  width: 345px;
+  margin: 0 auto;
+}
+
+#about {
+  color: #fff;
+}
+
+#about p {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .row.extra-info-row {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-6.name-email-city {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-5.age-education-phone {
+    max-width: 310px;
+    padding: 10px;
+  }
+}
+
+.fa.fa-chevron-right {
+  font-size: 13px;
+}
+
+@media (min-width: 300px) {
+  #about-img {
+    width: 95%;
+  }
+}
+
+.progress-txt {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.row.progress-row2 {
+  margin-top: 41px;
+  margin-right: 0;
+}
+
+#tech-section {
+}
+
+#testimonials {
+  margin-top: -27px;
+  margin-bottom: 90px;
+}
+
+.testimonial-heading {
+  color: #fff;
+  text-align: center;
+}
+
+div {
+}
+
+#carousel-2 {
+  background: #000!important;
+}
+
+.btn-showcase {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 7px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding-bottom: 7px;
+  transition: 0.7s;
+}
+
+.btn-showcase:hover {
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+}
+
+#projects {
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.contact-heading {
+  color: #fff;
+  text-align: center;
+}
+

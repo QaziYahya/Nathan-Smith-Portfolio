@@ -1,0 +1,148 @@
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 60%;
+  }
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.blc {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .blc {
+    font-size: 60%;
+  }
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+  margin-top: 13px;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-weight: 900;
+}
+
+.col-md-6 {
+}
+
+.col-md-6.extra-info-row {
+  text-align: center;
+}
+
+#progress {
+  width: 100%;
+  height: auto;
+}
+
+.row.progress-row1 {
+  margin-top: -34px;
+}
+
+.progress-heading {
+  color: #fff;
+  text-align: center;
+}
+
+#progress-row1 {
+}
+
+.col-sm-6.col-md-3.circle2-col {
+  margin: 0 auto;
+}
+
+.col-sm-6.col-md-3.circle1-col {
+  margin: 0 auto;
+}
+
+.bottom-line {
+  width: 70px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top: 3px;
+  background: #fff;
+}
+
+tex {
+}
+
+.tech-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.tech-section {
+  margin-bottom: 100px;
+}
+
+.tech-logo-img {
+  display: block;
+  margin: 10px auto;
+}
+
+.chevron-icon {
+}
+
+.chevron-icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+div {
+}
+
+.container.testimonial-container {
+  background: #000;
+}
+
+.projects-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.row.project-row {
+  margin-top: 48px;
+}
+
+.project-col {
+  display: block;
+  margin: 0 auto;
+}
+
